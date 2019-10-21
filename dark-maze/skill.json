@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "dark-maze",
+          "summary": "Dark Maze is a tough game for those looking to challenge their brain!",
+          "description": "Dark Maze is one of those hard games that makes your brain feel hot!",
+          "examplePhrases": [
+            "Alexa open Dark Maze",
+            "help"
+          ],
+          "keywords": [
+            "maze",
+            "game",
+            "dark maze"
+          ],
+          "smallIconUri": "",
+          "largeIconUri": ""
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Plase ask the skill to start a new game",
+      "category": "GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-dark-maze-default"
+        }
+      },
+      "privacyAndCompliance": {
+        "allowsPurchases": true,
+        "usesPersonalInfo": false,
+        "isChildDirected": false,
+        "isExportCompliant": true,
+        "containsAds": false,
+        "locales": {
+          "en-US": {
+            "privacyPolicyUrl": "https://www.linkedin.com/in/3dots/",
+            "termsOfUseUrl": "https://www.linkedin.com/in/3dots/"
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
