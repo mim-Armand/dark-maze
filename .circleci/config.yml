@@ -29,7 +29,7 @@ orbs:
     jobs:
       install:
         steps:
-          -
+          - install
       my_inline_job:
         parameters:
           greeting_name:
