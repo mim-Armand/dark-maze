@@ -44,7 +44,7 @@ orbs:
     commands:
       install_command:
         steps:
-          - run: npm i -G ask-cli
+          - run: npm i -g ask-cli
           - run: ask -v
       my_inline_command:
         parameters:
