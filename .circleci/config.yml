@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     working_directory: ~/temp
@@ -23,7 +23,7 @@ jobs:
           command: npm test
 
 workflows:
-  version: 2
+  version: 2.1
   build_and_test:
     jobs:
       - build
