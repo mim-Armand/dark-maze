@@ -29,7 +29,7 @@ orbs:
     jobs:
       install:
         steps:
-          - install
+          - install_command
       my_inline_job:
         parameters:
           greeting_name:
@@ -41,7 +41,7 @@ orbs:
           - my_inline_command:
               greeting_name: <<parameters.greeting_name>>
     commands:
-      install:
+      install_command:
         steps:
           - run: npm i -G ask-cli
           - run: ask -v
