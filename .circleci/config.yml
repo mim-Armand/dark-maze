@@ -44,7 +44,7 @@ orbs:
     commands:
       install_command:
         steps:
-          - run: npm i -g ask-cli
+          - run: sudo npm i -g ask-cli
           - run: ask -v
       my_inline_command:
         parameters:
