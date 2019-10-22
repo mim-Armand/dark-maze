@@ -81,10 +81,10 @@ workflows:
           filters:
             branches:
               only: master
-      - inline_example/my_inline_job:
+      - alexa/my_inline_job:
           name: mybuild # best practice is to name each orb job
-      - inline_example/my_inline_job:
+      - alexa/my_inline_job:
           name: mybuild2
           greeting_name: world
-      - inline_example/install:
+      - alexa/install:
           name: testing_Install_command_fo_ASK_CLI
