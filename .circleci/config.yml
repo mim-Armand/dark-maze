@@ -44,7 +44,6 @@ orbs:
     commands:
       install_command:
         steps:
-          - run: sudo pip install awscli
           - run: sudo npm i -g ask-cli
           - run: ask -v
           - run: ask api list-skills
