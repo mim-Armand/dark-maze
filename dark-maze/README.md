@@ -1,3 +1,3 @@
 # Dark Maze!
 
-> This is a game.
+> This is a game..
