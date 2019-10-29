@@ -25,7 +25,7 @@ jobs:
           command: npm test
 
 orbs:
-  alexa: alexa/alexa@0.0.3
+  alexa: alexa/alexa@0.0.4
 
 
 workflows:
