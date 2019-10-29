@@ -10,7 +10,7 @@
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "44928e2699aeb3f911140e03b99a366d"
+            "eTag": "c88d94218786c270cc1aa30150516e77"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-dark-maze-default",
             "handler": "index.handler",
-            "revisionId": "09a5aba6-5bf4-4f15-8c8f-5b5f74143bcc",
+            "revisionId": "e20e4111-1765-42c8-8675-55f7bc942ec4",
             "runtime": "nodejs8.10"
           }
         ]
