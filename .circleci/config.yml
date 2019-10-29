@@ -25,7 +25,7 @@ jobs:
           command: npm test
 
 orbs:
-  alexa: alexa/alexa@0.0.2
+  alexa: alexa/alexa@0.0.10
 
 
 workflows:
@@ -39,10 +39,9 @@ workflows:
           filters:
             branches:
               only: master
-      - alexa/my_inline_job:
-          name: mybuild # best practice is to name each orb job
-      - alexa/my_inline_job:
-          name: mybuild2
-          greeting_name: world
       - alexa/install_job:
           name: testing_Install_command_fo_ASK_CLI
+      - alexa/diff_job:
+          name: alexa_diff_job
+      - alexa/deploy_job:
+          name: deploy_the_skill
