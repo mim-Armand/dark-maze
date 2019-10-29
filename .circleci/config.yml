@@ -41,7 +41,7 @@ workflows:
               only: master
       - alexa/install_job:
           name: testing_Install_command_fo_ASK_CLI
-      - alexa/diff_command:
+      - alexa/diff_job:
           name: alexa_diff_job
-      - alexa/deploy_command:
+      - alexa/deploy_job:
           name: deploy_the_skill
